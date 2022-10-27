@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAGEMP.Server", "RAGEMP.Server\RAGEMP.Server.csproj", "{DCCD3579-8CD8-44F7-810A-4F699ED00C88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAGEMP.Client", "..\..\client_packages\cs_packages\RAGEMP.Client\RAGEMP.Client.csproj", "{8C8E835D-B295-45C0-AB95-DE6EA1461E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCCD3579-8CD8-44F7-810A-4F699ED00C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCD3579-8CD8-44F7-810A-4F699ED00C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCD3579-8CD8-44F7-810A-4F699ED00C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCD3579-8CD8-44F7-810A-4F699ED00C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8E835D-B295-45C0-AB95-DE6EA1461E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8E835D-B295-45C0-AB95-DE6EA1461E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {788AED12-119F-463E-A417-1C8AF507FE6E}
+	EndGlobalSection
+EndGlobal

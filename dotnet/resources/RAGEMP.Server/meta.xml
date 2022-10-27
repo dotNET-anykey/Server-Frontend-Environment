@@ -1,0 +1,4 @@
+﻿<meta>
+	<info name="CHILL CORNER" description="by Coveragt" />
+	<script src="bin\Debug\netcoreapp3.1\RAGEMP.Server.dll" />
+</meta>

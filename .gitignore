@@ -16,6 +16,9 @@
 # Mono auto generated files
 mono_crash.*
 
+/client_packages/cs_packages/RAGEMP.Client/bin
+/client_packages/cs_packages/RAGEMP.Client/obj
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
