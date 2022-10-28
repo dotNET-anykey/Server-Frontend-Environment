@@ -18,11 +18,11 @@ mono_crash.*
 
 /client_packages/cs_packages/RAGEMP.Client/bin
 /client_packages/cs_packages/RAGEMP.Client/obj
-!/dotnet/resources/RAGEMP.Server/bin/Debug/netcoreapp3.1
-!/dotnet/resources/RAGEMP.Server/bin/Debug/netcoreapp3.1/RAGEMP.Server.dll
+/bin
+dotnet/resources/RAGEMP.Server/bin/Debug/
+!dotnet/resources/RAGEMP.Server/bin/Debug/
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -32,7 +32,6 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
