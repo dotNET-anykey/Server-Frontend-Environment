@@ -8,10 +8,6 @@ namespace RAGEMP.Server
         public void CMD_CreateVehicle(Player player, string vehicleName)
         {
             var vehicleHashKey = NAPI.Util.GetHashKey(vehicleName);
-            var test = NAPI.Util.VehicleNameToModel(vehicleName);
-
-            player.SendChatMessage(vehicleHashKey.ToString());
-            player.SendChatMessage(test.ToString());
 
             if (vehicleHashKey < 1)
             {
